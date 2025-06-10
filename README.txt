@@ -1,7 +1,7 @@
 Genny Con Website
 
-Lmk if the vibe is off. Don't think it's backward compatible.
+Lmk if the vibe is off.
 
 TODO:
-- mobile ver
+- media breakpoints
 - we don't need night mode right?
