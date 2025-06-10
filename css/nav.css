@@ -1,11 +1,11 @@
-nav{
+nav #navbar{
     margin: 0 auto;
     position: sticky;
     top: 0;
     display: grid;
     grid-template-columns: 20% 80%;
     padding: 2vw 3vw;
-    z-index: 2;
+    z-index: 3;
     background-color: white;
     border-bottom: 2px black solid;
 }
@@ -22,13 +22,13 @@ nav{
     text-align: right;
 }
 
-nav a {
+nav #navbar a {
     color: rgb(56, 57, 55);
 }
-nav a:visited{
+nav #navbar a:visited{
     color: rgb(56, 57, 55);
 }
-nav a:hover{
+nav #navbar a:hover{
     background-color: transparent;
     color: rgb(56, 57, 55);
     text-decoration: underline;

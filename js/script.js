@@ -1,6 +1,8 @@
 $(function (){
     //loading incs
     $("#navbar").load("../inc/nav.html");
+    $("#footer").load("../inc/footer.html");
+
 
     //slideshow
     // let slide_index = 0;
