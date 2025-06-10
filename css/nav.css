@@ -1,0 +1,14 @@
+nav{
+    margin: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.nav-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: right;
+}

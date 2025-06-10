@@ -1,0 +1,42 @@
+/* NAVBAR */
+#navbar.nightMode{
+    background-color: rgb(57, 57, 55);
+}
+#navbar.nightMode a{
+    background-color: rgb(67, 71, 70);
+    color: rgb(242, 238, 228);
+    border-color: rgb(31, 32, 32);
+}
+#navbar.nightMode .nav_current{
+    background-color: rgb(57, 57, 55);
+    color: rgb(242, 238, 228);
+}
+#navbar.nightMode :hover{
+    background-color: rgb(62, 64, 64);
+}
+#navbar.nightMode .nav_current:hover{
+    background-color: rgb(57, 57, 55);
+}
+.nightMode .navbar_padding{
+    background-color: rgb(57, 57, 55);
+}
+
+/* BODY */
+.nightMode{
+    background-color: rgb(57, 57, 55);
+    color: rgb(242, 238, 228);
+}
+.nightMode a{
+    color: rgb(218, 225, 222);
+}
+.nightMode a:visited{
+    color: rgb(218, 225, 222);
+}
+
+/* TABLE */
+.nightMode th{
+    border-color: rgb(242, 238, 228);
+}
+.nightMode td{
+    border-color: rgb(242, 238, 228);
+}

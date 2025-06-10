@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(250, 248, 244);
+    color: rgb(56, 57, 55);
+    margin: 0;
+    font-family: "lexend", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    /* margin-top: 100px; */
+	width: 80%;
+	max-width: 1200px;
+}
+
+.san_col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.san_col > div{
+    text-align: center;
+}
+
+p{
+    font-weight: 350;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(112, 132, 123);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(112, 132, 123);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-weight: 500;
+}
+
+h2{
+    margin-top: 1.3em;
+    margin-bottom: 0.3em;
+    font-weight: 500;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
