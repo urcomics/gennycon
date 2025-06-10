@@ -4,7 +4,7 @@ nav #navbar{
     top: 0;
     display: grid;
     grid-template-columns: 20% 80%;
-    padding: 2vw 3vw;
+    padding: 1.7vw 3vw;
     z-index: 3;
     background-color: white;
     border-bottom: 2px black solid;

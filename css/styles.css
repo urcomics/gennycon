@@ -1,3 +1,10 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     background-color: rgb(250, 248, 244);
     color: rgb(56, 57, 55);
@@ -5,13 +12,15 @@ body{
     font-family: "lexend", sans-serif;
 }
 
+body > .container {
+    flex: 1;
+}
+
 .container{
     margin: 0 auto;
-    /* margin-top: 100px; */
 	width: 80%;
 	max-width: 1200px;
     z-index: 2;
-    padding-bottom: 90px;
 }
 
 .san_col{
@@ -46,8 +55,14 @@ a:hover{
     background-color: rgb(64, 81, 194);
 }
 
-h1, h2{
+h1{
+    text-align: center;
+    font-family: "Carter One", sans-serif;
     font-weight: 500;
+}
+
+h2{
+    font-weight: 400;
 }
 
 ul{
@@ -76,26 +91,23 @@ ul{
 .slide_img img{
     display: block;
     margin: auto;
-    /* max-height: 100%;
-    max-width: 100%; */
+    max-width: 100%;
 }
 
 footer #footer{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: white;
-    border-top: 2px solid black;
-    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 1;
 }
 .footer_left{
-    padding: 2vw 3vw;
+    font-size: 12px;
+    padding: 2vw 3vw 1vw 2vw;
 }
 .footer_right{
     text-align: right;
-    padding: 2vw 3vw;
+    padding: 2vw 3vw 1vw 2vw;
 }
 .footer_link img{
     height: 24px;
