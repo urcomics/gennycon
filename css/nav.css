@@ -6,12 +6,30 @@ nav{
     grid-template-columns: 20% 80%;
     padding: 2vw 3vw;
     z-index: 2;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-bottom: 2px black solid;
+}
+
+.nav-left a{
+    font-family: "Carter One", sans-serif;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .nav-right{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: right;
+}
+
+nav a {
+    color: rgb(56, 57, 55);
+}
+nav a:visited{
+    color: rgb(56, 57, 55);
+}
+nav a:hover{
+    background-color: transparent;
+    color: rgb(56, 57, 55);
+    text-decoration: underline;
 }
