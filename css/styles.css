@@ -70,6 +70,8 @@ ul{
     margin-bottom: 0.5em;
 }
 
+
+/* carousel */
 .comic_container{
     margin: 2.5vw 0;
 }
@@ -86,6 +88,7 @@ ul{
     height: 25vw;
     width: 54vw;
     overflow: hidden;
+    position: relative;
 }
 
 .slide_img img{
@@ -94,26 +97,18 @@ ul{
     max-width: 100%;
 }
 
-footer #footer{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
+.slide_narration{
+    font-family: "Carter One", sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 1vw;
+    background-color: rgb(254, 253, 250);
+    border: 2px solid rgb(56, 57, 55);
+    padding: .3vw .7vw;
 }
-.footer_left{
-    font-size: 12px;
-    padding: 2vw 3vw 1vw 2vw;
-}
-.footer_right{
-    text-align: right;
-    padding: 2vw 3vw 1vw 2vw;
-}
-.footer_link img{
-    height: 24px;
-    margin: 0 .3vw;
-}
-.footer_link:hover{
-    text-decoration: none;
-    background-color: transparent;
+
+.slide_narration p{
+    margin: 0;
 }

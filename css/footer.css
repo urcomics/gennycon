@@ -1,0 +1,23 @@
+footer #footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.footer_left{
+    font-size: 12px;
+    padding: 2vw 3vw 1vw 2vw;
+}
+.footer_right{
+    text-align: right;
+    padding: 2vw 3vw 1vw 2vw;
+}
+.footer_link img{
+    height: 24px;
+    margin: 0 .3vw;
+}
+.footer_link:hover{
+    text-decoration: none;
+    background-color: transparent;
+}

@@ -1,7 +1,6 @@
 Genny Con Website
 
-Lmk if the vibe is off.
-
 TODO:
 - media breakpoints
-- more professional favicon.
+- favicon and logo design, don't @ me
+- animations sigh emoji
