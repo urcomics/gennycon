@@ -1,3 +1,22 @@
+/* fonts */
+@font-face{
+    font-family: "Digital Strip";
+    src:
+        url(../fonts/digistrip_i.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Carter One";
+    src:
+        url(../fonts/CarterOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+/* general styles */
 html, body{
     height: 100%;
     margin: 0;
@@ -6,10 +25,10 @@ html, body{
 }
 
 body{
-    background-color: rgb(250, 248, 244);
+    background-color: rgb(255, 253, 250);
     color: rgb(56, 57, 55);
     margin: 0;
-    font-family: "lexend", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body > .container {
@@ -98,13 +117,12 @@ ul{
 }
 
 .slide_narration{
-    font-family: "Carter One", sans-serif;
-    font-style: italic;
+    font-family: "Digital Strip", sans-serif;
     position: absolute;
     top: 8px;
     left: 8px;
     font-size: 1vw;
-    background-color: rgb(254, 253, 250);
+    background-color: rgb(249, 234, 124);
     border: 2px solid rgb(56, 57, 55);
     padding: .3vw .7vw;
 }
