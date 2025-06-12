@@ -12,6 +12,12 @@
 }
 
 @font-face {
+    font-family: "Bangers";
+    font-weight: 500;
+    src: url(../fonts/Bangers-Regular.ttf) format("truetype");
+}
+
+@font-face {
     font-family: "Open Sans";
     src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
 }
@@ -76,7 +82,7 @@ a:hover{
 
 h1{
     text-align: center;
-    font-family: "Carter One", sans-serif;
+    font-family: "Bangers", sans-serif;
     font-weight: 500;
 }
 
