@@ -24,7 +24,7 @@ nav #navbar{
 
 nav #navbar a {
     color: rgb(56, 57, 55);
-    padding: 1vw;
+    padding: 1rem;
 }
 nav #navbar a:visited{
     color: rgb(56, 57, 55);
@@ -34,5 +34,4 @@ nav #navbar a:hover{
     color: rgb(56, 57, 55);
     text-decoration: underline;
     font-family: "Bangers", sans-serif;
-    font-size: 1.4vw;
 }
