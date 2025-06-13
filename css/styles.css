@@ -87,7 +87,7 @@ h1{
 h2{
     font-family: "Digital Strip", sans-serif;
     padding: .4rem .7rem;
-    margin: .5em 0;
+    margin: 1em 0 .5em 0;
     font-size: 1rem;
     background-color: rgb(249, 234, 124);
     border: 2px solid rgb(56, 57, 55);
@@ -100,6 +100,35 @@ ul li{
     margin-top: 0;
     margin-bottom: 0.5em;
 }
+
+.btn{
+    margin: .5em;
+    display: inline-block;
+    background-color: rgb(255, 248, 156);
+    border: 2px solid rgb(56, 57, 55);
+    border-radius: 15px;
+    box-shadow: 10px 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(249, 234, 124);
+}
+.btn a{
+    display: block;
+    padding: .8em 1.1em;
+    color: rgb(56, 57, 55);
+    font-family: "Bangers", sans-serif;
+}
+.btn a:hover{
+    background-color: transparent;
+}
+.btn:active{
+    box-shadow: 10px 10px rgb(56, 57, 55), 2px 2px rgb(226, 199, 101) inset;
+}
+.btn a:visited{
+    color: rgb(56, 57, 55);
+}
+
 
 
 /* carousel */
