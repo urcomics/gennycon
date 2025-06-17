@@ -1,7 +1,7 @@
 $(function (){
     //loading incs
-    $("#navbar").load("../inc/nav.html");
-    $("#footer").load("../inc/footer.html");
+    $("#navbar").load("/inc/nav.html");
+    $("#footer").load("/inc/footer.html");
 
 
     //slideshow
