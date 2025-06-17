@@ -130,6 +130,24 @@ ul li{
 }
 
 
+/* ben day bg */
+/* .dotted {
+	--dotSize: 0.25rem;
+	aspect-ratio: 1;
+	position: relative;
+	background-image: radial-gradient(circle at center, rgb(238, 237, 162) var(--dotSize), transparent 0);
+	background-size: 1rem 1rem;
+	background-repeat: round;
+	background-position: center;
+	border: 4px solid;
+
+	--bgSize: 1.35rem;
+	--bgPosition: calc(var(--bgSize) / 2);
+	background-image: radial-gradient(circle at center, rgb(238, 237, 162) var(--dotSize), transparent 0), radial-gradient(circle at center, rgb(238, 237, 162) var(--dotSize), transparent 0);
+	background-size: var(--bgSize) var(--bgSize);
+	background-position: 0 0, var(--bgPosition) var(--bgPosition);
+} */
+
 
 /* carousel */
 .comic_container{
