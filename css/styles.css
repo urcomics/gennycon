@@ -166,6 +166,7 @@ ul li{
 .slide_img{
     height: 25vw;
     width: 54vw;
+    background-color: rgb(56, 57, 55);
     overflow: hidden;
     position: relative;
 }
