@@ -159,7 +159,8 @@ ul li{
     height: 25vw;
     width: 54vw;
     background-color: white;
-    border: 2px black solid;
+    border: 3px rgb(56, 57, 55) solid;
+    box-shadow: 7px 7px black;
 }
 
 .slide_img{
